@@ -12,7 +12,7 @@ function onFormSubmit(event) {
     console.log(formData);
   }
   if (mail === "" || password === "") {
-    alert("Все поля должны быть заполнены");
+    alert("Заполни все поля");
   }
   event.currentTarget.reset();
 }
